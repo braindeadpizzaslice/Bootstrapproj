@@ -8,43 +8,23 @@
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <a href="#" class="navbar-brand mb-0 h1">
-      <img class="d-inline-block align-top" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="bootstrap" width="30" height="30">
-      Navbar
-    </a>
-    <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active"><a href="#" class="nav-link active">Home</a></li>
-        <li class="nav-item active"><a href="#" class="nav-link active">Store</a></li>
-        <li class="nav-item active"><a href="#" class="nav-link active">About</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <div class="container">
-    <div class="grid-container">
-      <div class="grid-item">Afsnit 1 — indhold</div>
-      <div class="grid-item">Afsnit 2 — indhold</div>
-      <div class="grid-item">Afsnit 3 — indhold</div>
-      <div class="grid-item">Afsnit 4 — indhold</div>
-    </div>
-
-    <div class="mt-5">
-      <h3>Skriv en klage</h3>
-      <form>
-        <div class="mb-3">
-          <label for="besked" class="form-label">Besked</label>
-          <textarea class="form-control" id="besked" rows="4" placeholder="Skriv din besked her..."></textarea>
+        <a href="#" class="navbar-brand mb-0 h1">
+        <img class="d-inline-block align-top" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="bootstrap" width="30" height="30">
+        Navbar
+        </a>
+        <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active"><a href="#" class="nav-link active">Home</a></li>
+                <li class="nav-item active"><a href="#" class="nav-link active">Store</a></li>
+                <li class="nav-item active"><a href="#" class="nav-link active">About</a></li>
+            </ul>
         </div>
-        <button type="submit" class="btn btn-primary">Send</button>
-      </form>
-    </div>
-  </div>
+    </nav>
 
-  <div id="carouselIndicators" class="carousel slide mt-10 bg-light" data-bs-ride="carousel">
+    <div id="carouselIndicators" class="carousel slide mt-5 bg-light" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -85,6 +65,26 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
+    </div>
+
+    <div class="container">
+        <div class="grid-container">
+        <div class="grid-item">Afsnit 1 — indhold</div>
+        <div class="grid-item">Afsnit 2 — indhold</div>
+        <div class="grid-item">Afsnit 3 — indhold</div>
+        <div class="grid-item">Afsnit 4 — indhold</div>
+        </div>
+
+        <div class="mt-5">
+        <h3>Skriv en klage</h3>
+        <form>
+            <div class="mb-3">
+            <label for="besked" class="form-label">Besked</label>
+            <textarea class="form-control" id="besked" rows="4" placeholder="Skriv din besked her..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+        </div>
     </div>
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
